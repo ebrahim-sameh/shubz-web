@@ -86,7 +86,7 @@ const Filming = () => {
   const allMovies = [
     {
       id: 2,
-      src: Movies[0],
+      src: https://bloggydjango.s3.amazonaws.com/videos/made+in+aks.mp4,
       name: 'Montage',
       rating: 4.8,
       date: 2018,
@@ -95,7 +95,7 @@ const Filming = () => {
     },
     {
       id: 3,
-      src: Movies[1],
+      src: https://bloggydjango.s3.amazonaws.com/videos/Na+So+-+Wyllz+master+HD.mkv,
       name: 'UMO ENO TV',
       rating: 4.8,
       date: 2018,
@@ -104,7 +104,7 @@ const Filming = () => {
     },
     {
       id: 4,
-      src: Movies[2],
+      src: https://bloggydjango.s3.amazonaws.com/videos/basumoh.mp4,
       name: 'Basumoh',
       rating: 4.8,
       date: 2018,
@@ -113,7 +113,7 @@ const Filming = () => {
     },
     {
       id: 5,
-      src: Movies[3],
+      src: https://bloggydjango.s3.amazonaws.com/videos/blow+pos.mp4,
       name: 'Blow Pos',
       rating: 4.8,
       date: 2018,
@@ -122,7 +122,7 @@ const Filming = () => {
     },
     {
       id: 6,
-      src: Movies[4],
+      src: https://bloggydjango.s3.amazonaws.com/videos/Ketiano.mp4,
       name: 'Ketiano',
       rating: 4.8,
       date: 2018,
@@ -131,7 +131,7 @@ const Filming = () => {
     },
     {
       id: 7,
-      src: Movies[5],
+      src: https://bloggydjango.s3.amazonaws.com/videos/LATONNE+SIGNATURES.mp4,
       name: 'LATONNE SIGNATURES',
       rating: 4.8,
       date: 2018,
@@ -140,7 +140,7 @@ const Filming = () => {
     },
     {
       id: 8,
-      src: Movies[6],
+      src: https://bloggydjango.s3.amazonaws.com/videos/Westgate+fhd.mp4,
       name: 'Westgate fhd',
       rating: 4.8,
       date: 2018,
@@ -149,7 +149,7 @@ const Filming = () => {
     },
     {
       id: 9,
-      src: Movies[7],
+      src: https://bloggydjango.s3.amazonaws.com/videos/made+in+aks.mp4,
       name: 'made in aks',
       rating: 4.8,
       date: 2018,
