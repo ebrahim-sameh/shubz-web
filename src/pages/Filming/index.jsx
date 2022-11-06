@@ -11,7 +11,6 @@ import Banner2 from '../../components/images/Photography/banner/3.jpg'
 import Banner3 from '../../components/images/Photography/banner/videoproduction2.jpg'
 import Pricing from '../../components/Pricing'
 import FilmingSection from '../../components/FilmingSection'
-import { Movies } from '../../components/videos'
 
 import "aos/dist/aos.css";
 import './Filming.css'
