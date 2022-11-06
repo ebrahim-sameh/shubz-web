@@ -9,10 +9,6 @@ import Aos from "aos";
 import Banner1 from '../../components/images/Photography/banner/musicvideo.jpg'
 import Banner2 from '../../components/images/Photography/banner/3.jpg'
 import Banner3 from '../../components/images/Photography/banner/videoproduction2.jpg'
-import Music1 from '../../components/videos/Na So - Wyllz master HD.mkv'
-import Music2 from '../../components/videos/Utibe Ima - Wyllz master HD.mkv'
-import Music3 from '../../components/videos/peace final mhd.mkv'
-import MainVideo from '../../components/videos/THE FISHER MAN MAKING_2.mkv'
 import Pricing from '../../components/Pricing'
 import FilmingSection from '../../components/FilmingSection'
 import { Movies } from '../../components/videos'
@@ -62,21 +58,21 @@ const Filming = () => {
   const music = [
     {
       id: 1,
-      src: Music1,
+      src: 'https://bloggydjango.s3.amazonaws.com/videos/Na+So+-+Wyllz+master+HD.mkv',
       name: 'Na So - Wyllz master HD',
       rating: 7.1,
       type: 'Music Videos'
     },
     {
       id: 2,
-      src: Music2,
+      src: 'https://bloggydjango.s3.amazonaws.com/videos/Utibe+Ima+-+Wyllz+master+HD.mkv',
       name: 'Utibe Ima - Wyllz master HD',
       rating: 7.1,
       type: 'Music Videos'
     },
     {
       id: 3,
-      src: Music3,
+      src: 'https://bloggydjango.s3.amazonaws.com/videos/peace+final+mhd.mkv',
       name: 'peace final mhd',
       rating: 7.1,
       type: 'Music Videos'
@@ -254,7 +250,7 @@ const Filming = () => {
         special='Movies'
         dark={true}
       />
-      <Video video={MainVideo} />
+      <Video src='https://bloggydjango.s3.amazonaws.com/videos/THE+FISHER+MAN+MAKING_2.mkv' />
       <Pricing 
         id={5} 
         setOffsetTop={setOffsetTop} 
